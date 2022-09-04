@@ -1,0 +1,25 @@
+{
+	"name": "Kotlin Sample",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"VARIANT": "17-bullseye"
+		}
+	},
+	
+
+	// Uncomment the next line if you want to publish any ports.
+	// "appPort": [],
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mathiasfrohlich.Kotlin",
+                "formulahendry.code-runner",
+                "fwcd.kotlin"
+            ]
+        }
+    },
+
+    "remoteUser": "vscode"
+}

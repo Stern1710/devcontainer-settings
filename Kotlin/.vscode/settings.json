@@ -1,0 +1,6 @@
+{
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.executorMapByFileExtension": {
+        ".kt": "kotlinc $dir$fileName -include-runtime -d out/$fileNameWithoutExt.jar && java -jar out/$fileNameWithoutExt.jar"
+    }
+}
